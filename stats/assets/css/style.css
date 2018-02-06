@@ -1,0 +1,102 @@
+body > div.container {
+    padding-top: 15px;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #005199;
+}
+
+/* Nav */
+
+.navbar .brand {
+    padding: 0 20px;
+    color: white;
+}
+
+.navbar .brand img {
+    height: 44px;
+    margin-top: 2px;
+}
+
+.navbar .brand span {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+    display: inline-block;
+    height: 12px;
+}
+
+.navbar .nav > li > a { 
+    color: white;
+}
+
+.navbar .nav > li > a:hover { 
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Chart Controls */
+
+#chart-controls {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #DDD;
+    height: 37px;
+}
+
+#chart-controls div.btn-group {
+    float: right;
+    margin-right: 20px;
+}
+
+/* Charts */
+
+.md-chart {
+    width: 29%;
+    height: 330px;
+    display: inline-block;
+}
+
+.md-chart.wider {
+    width: 40%;
+}
+
+.md-chart-full {
+    height: 350px;
+    margin: 32px 0;
+    display: block;
+}
+
+/* Tables */
+.tab-pane div.span3 {
+    margin-left: 20px;
+}
+
+tfoot tr {
+    background-color: #BFC7CE;
+}
+
+/* Filters */
+.filters-container {
+    min-height: 300px;
+}
+
+.filters {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.filters .filter {
+    float: left;
+    margin-right: 10px;
+}
+
+/* Maps */
+#map img {
+    max-width: none;
+    width: auto;
+    height: auto;
+    vertical-align: initial;
+    border: inherit;
+}

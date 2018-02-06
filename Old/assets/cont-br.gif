@@ -1,0 +1,1152 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+	<title>Template-Help.com</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	    <link rel="stylesheet" type="text/css" href="/tm.css"/>
+	<link rel="stylesheet" type="text/css" href="/style-article.css"/>
+	    <link rel="stylesheet" type="text/css" href="/style-help.css"/>
+	<script language="javascript" type="text/javascript" src="/js/bookmarks.js"></script>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    
+</head>
+<body>
+
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%; height:100%; border:none; border-collapse:collapse;">
+
+<!-- LOGO -->
+	<tr>
+		<td style="height:115px;"><!-- LOGO -->
+	<div id="header">
+		<div class="logo">
+			<a href="/"><img src="/images/main_logo1.gif" alt="logo"></a>
+		</div>
+
+		<form method="get" action="/search.jsp" enctype="application/x-www-form-urlencoded" id="form_position">
+       			<div>
+				<input class="input_text" size="12" name="q" value="Keyword" onfocus="if (this.value=='Keyword') this.value=''" onblur="if (this.value=='') this.value='Keyword'" type="text">
+				<input class="search_button" src="/images/search_button.gif" alt="Search" type="image">
+			</div>
+		</form>
+
+		<div id="navlist">
+			 <ul>
+
+	<li><a href="/contact_us.html">Contact Us</a></li>
+
+	<li><a href="/sample_templates.html">Free Sample Templates</a></li>
+
+	<li><a href="http://support.template-help.com/?&referer=http://www.template-help.com">Live Support Chat</a></li>
+
+
+			</ul>
+		</div>
+
+	</div>
+<!-- LOGO --></td>
+	</tr>
+<!-- /LOGO -->
+
+	<tr>
+		<td style="height:100%" valign="top">
+			<table border="0" cellpadding="0" cellspacing="0" style="height:100%;width:100%">
+				<tr>
+					<td colspan="3" valign="top" style="font-size:0px; height:4px;"> </td>
+				</tr>
+				<tr>
+<!-- LEFT COLUMN -->
+					<td valign="top" id="tmhelp_th_separatorArticle" width="260">
+    						<script language="Javascript" type="text/javascript">
+var prefixCategory="cat";
+var prefixImgCat="imgCat";
+function ShowHideCategory(index) {
+   var folderDIV=document.getElementById(prefixCategory+index);
+   var imgObject=document.getElementById(prefixImgCat+index);
+   if (folderDIV==null || imgObject==null) return false;
+   if (imgObject.src.indexOf("folder_minus.gif")==-1) {
+       imgObject.src="/images/folder_minus.gif";
+       folderDIV.style.display="block";
+   } else {
+       imgObject.src="/images/folder_plus.gif";
+       folderDIV.style.display="none";
+   }
+   return true;
+}
+function goToCategory(route) {
+   var listCategory=route.split(",");
+   for (var i=0;i<listCategory.length;i++)
+       ShowHideCategory(listCategory[i]);
+   return true;
+}
+</script>
+
+<div id="tmhelp_th_navigationLeftMenu">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat1" onclick="ShowHideCategory(1)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Updates_And_Innovations/">Updates And Innovations</a>
+</div>
+<div id="cat1" class="tmhelp_th_category">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat2" onclick="ShowHideCategory(2)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Updates_And_Innovations/OsCommerce/">OsCommerce</a>
+</div>
+<div id="cat2" class="tmhelp_th_category">
+<a href="/Updates_And_Innovations/OsCommerce/article2.html">Updated as of 01/01/2007</a>
+<a href="/Updates_And_Innovations/OsCommerce/article3.html">Updated as of 02/05/2008</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat4" onclick="ShowHideCategory(4)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Updates_And_Innovations/WordPress/">WordPress</a>
+</div>
+<div id="cat4" class="tmhelp_th_category">
+<a href="/Updates_And_Innovations/WordPress/article2.html">Updated as of 02/02/2007</a>
+<a href="/Updates_And_Innovations/WordPress/article3.html">Updated as of 06/22/2007</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat6" onclick="ShowHideCategory(6)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Updates_And_Innovations/CRELoaded/">CRE Loaded</a>
+</div>
+<div id="cat6" class="tmhelp_th_category">
+<a href="/Updates_And_Innovations/CRELoaded/article2.html">Updated as of 05/07/2007</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat8" onclick="ShowHideCategory(8)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Updates_And_Innovations/swish/">Swish</a>
+</div>
+<div id="cat8" class="tmhelp_th_category">
+<a href="/Updates_And_Innovations/swish/article2.html">Updated as of 07/27/2007</a>
+<a href="/Updates_And_Innovations/swish/article3.html">Updated as of 12/04/2007</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat10" onclick="ShowHideCategory(10)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Updates_And_Innovations/Flash/">Flash</a>
+</div>
+<div id="cat10" class="tmhelp_th_category">
+<a href="/Updates_And_Innovations/Flash/article2.html">Updated as of 07/29/2007</a>
+<a href="/Updates_And_Innovations/Flash/article3.html">Updated as of 09/17/2007</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat12" onclick="ShowHideCategory(12)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Updates_And_Innovations/HTML/">HTML</a>
+</div>
+<div id="cat12" class="tmhelp_th_category">
+<a href="/Updates_And_Innovations/HTML/article2.html">Updated as of 12/01/2007</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat14" onclick="ShowHideCategory(14)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Updates_And_Innovations/dynamic_flash_gallery/">Dynamic Flash Photo Galleries</a>
+</div>
+<div id="cat14" class="tmhelp_th_category">
+<a href="/Updates_And_Innovations/dynamic_flash_gallery/article2.html">Updated as of 03/31/2008</a>
+</div>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat17" onclick="ShowHideCategory(17)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/">Pre-Sale Questions</a>
+</div>
+<div id="cat17" class="tmhelp_th_category">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat18" onclick="ShowHideCategory(18)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/about_web_design_templates/">About Web Design Templates</a>
+</div>
+<div id="cat18" class="tmhelp_th_category">
+<a href="/pre-sale_questions/about_web_design_templates/article2.html">What is a Web Design template?</a>
+<a href="/pre-sale_questions/about_web_design_templates/article3.html">Template Usage Advantages</a>
+<a href="/pre-sale_questions/about_web_design_templates/article4.html">Website Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article5.html">Flash Intro Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article6.html">Flash Animated Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article29.html">Flash Animated mx2004 Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article7.html">SWiSH Animated Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article25.html">Dynamic Flash Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article26.html">Flash Site Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article31.html">XML Flash Site Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article12.html">Flash Site 8 Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article8.html">Logo Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article9.html">Full Site Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article28.html">Full Site mx2004</a>
+<a href="/pre-sale_questions/about_web_design_templates/article10.html">Full Package Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article11.html">CSS Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article13.html">Dynamic SWiSH Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article27.html">PHP-Nuke Theme</a>
+<a href="/pre-sale_questions/about_web_design_templates/article14.html">OsCommerce Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article15.html">Fireworks Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article16.html">Corporate Identity</a>
+<a href="/pre-sale_questions/about_web_design_templates/article17.html">Logo Set</a>
+<a href="/pre-sale_questions/about_web_design_templates/article18.html">Icon Set</a>
+<a href="/pre-sale_questions/about_web_design_templates/article19.html">ZenCart Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article20.html">PhpBB Skin</a>
+<a href="/pre-sale_questions/about_web_design_templates/article21.html">3 Color Templates</a>
+<a href="/pre-sale_questions/about_web_design_templates/article22.html">Stretched Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article23.html">CRE Loaded Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article24.html">WordPress Theme</a>
+<a href="/pre-sale_questions/about_web_design_templates/article32.html">Joomla Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article33.html">Mambo Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article34.html">Drupal Template</a>
+<a href="/pre-sale_questions/about_web_design_templates/article30.html">Dynamic Flash Photo Gallery</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat20" onclick="ShowHideCategory(20)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/template_package_content/">Template Package Content</a>
+</div>
+<div id="cat20" class="tmhelp_th_category">
+<a href="/pre-sale_questions/template_package_content/article2.html">Using a download manager</a>
+<a href="/pre-sale_questions/template_package_content/article3.html">Do you provide the source code for Flash?</a>
+<a href="/pre-sale_questions/template_package_content/article5.html">How big are the template files?</a>
+<a href="/pre-sale_questions/template_package_content/article16.html">The number of pages in template packages.</a>
+<a href="/pre-sale_questions/template_package_content/article7.html">Search Engine field in templates</a>
+<a href="/pre-sale_questions/template_package_content/article8.html">Where can I get additional fonts?</a>
+<a href="/pre-sale_questions/template_package_content/article9.html">Where to get the free stuff that is advertised</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat22" onclick="ShowHideCategory(22)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/software_questions/">Software Questions</a>
+</div>
+<div id="cat22" class="tmhelp_th_category">
+<a href="/pre-sale_questions/software_questions/article3.html">Do you sell programs for editing templates?</a>
+<a href="/pre-sale_questions/software_questions/article4.html">Browser Compatibility</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat24" onclick="ShowHideCategory(24)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/hosting_questions/">Hosting Questions</a>
+</div>
+<div id="cat24" class="tmhelp_th_category">
+<a href="/pre-sale_questions/hosting_questions/article3.html">Checking for a web server</a>
+<a href="/pre-sale_questions/hosting_questions/article2.html">Using templates with Geocities.com</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat26" onclick="ShowHideCategory(26)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/delivery_of_products/">Delivery of Products</a>
+</div>
+<div id="cat26" class="tmhelp_th_category">
+<a href="/pre-sale_questions/delivery_of_products/article3.html">How long does it take to get the template?</a>
+<a href="/pre-sale_questions/delivery_of_products/article2.html">Do you ship your products overseas?</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat28" onclick="ShowHideCategory(28)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/after_sale_support/">After Sale Support</a>
+</div>
+<div id="cat28" class="tmhelp_th_category">
+<a href="/pre-sale_questions/after_sale_support/article2.html">After Sale Support That We Offer</a>
+<a href="/pre-sale_questions/after_sale_support/article3.html">Why do you keep closing my tickets?</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat30" onclick="ShowHideCategory(30)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/">Copyright and Template Usage Questions</a>
+</div>
+<div id="cat30" class="tmhelp_th_category">
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article24.html">Terms of Use</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article6.html">Licensing FAQ</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article2.html">Can I buy a template and put it on any number of web sites?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article3.html">Can I change the domain my template is assigned to?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article4.html">Can I get a membership to your site?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article5.html">Can I resell a purchased template?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article7.html">Can I use the graphics and layout of your site?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article8.html">Can I use your free clipart for creating my own sites?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article9.html">Can I use your free sample templates on my site?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article10.html">Does a watermark come on actual logo templates?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article11.html">If I buy a template, do I have exclusive ownership of it?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article12.html">Do I have to provide a link back or give you credit for the design?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article13.html">Do you have any warranties from independent design providers?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article14.html">Do you provide references for your clients?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article15.html">How can I get exclusive rights to this logo?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article16.html">How to find out how many people downloaded a template?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article17.html">How to report a piracy?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article18.html">If I develop websites for customers, can I use your templates?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article19.html">I purchased a template and never used it - can I sell it?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article20.html">Is the price of the template a one-time fee?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article21.html">Is there any unchangeable signature in the template?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article22.html">What is the difference between "Price" and "Unique Price"?</a>
+<a href="/pre-sale_questions/copyright_and_template_usage_questions/article23.html">Will I hold the copyright to a finished website?</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat32" onclick="ShowHideCategory(32)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/clipart_and_images_questions/">Clipart and Images Questions</a>
+</div>
+<div id="cat32" class="tmhelp_th_category">
+<a href="/pre-sale_questions/clipart_and_images_questions/article2.html">Where can I get high-resolution images?</a>
+<a href="/pre-sale_questions/clipart_and_images_questions/article3.html">What is the difference between the the Adobe and the HTML screenshots?</a>
+<a href="/pre-sale_questions/clipart_and_images_questions/article4.html">May I purchase specific images from your site?</a>
+<a href="/pre-sale_questions/clipart_and_images_questions/article5.html">What is the screen resolution for the HTML screenshots?</a>
+<a href="/pre-sale_questions/clipart_and_images_questions/article6.html">Can I purchase clipart without purchasing a template?</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat34" onclick="ShowHideCategory(34)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/custom_design_requests/">Custom Design Requests</a>
+</div>
+<div id="cat34" class="tmhelp_th_category">
+<a href="/pre-sale_questions/custom_design_requests/article2.html">Can you design a custom website template for me?</a>
+<a href="/pre-sale_questions/custom_design_requests/article3.html">How do I communicate with the author of a particular template?</a>
+<a href="/pre-sale_questions/custom_design_requests/article4.html">Can I order a custom logo?</a>
+<a href="/pre-sale_questions/custom_design_requests/article5.html">What will it cost to modify a template?</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat36" onclick="ShowHideCategory(36)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/CMS_and_sitebuilders_questions/">CMS and Sitebuilder programs compatability questions</a>
+</div>
+<div id="cat36" class="tmhelp_th_category">
+<a href="/pre-sale_questions/CMS_and_sitebuilders_questions/article6.html">Templates for CMS that we provide</a>
+<a href="/pre-sale_questions/CMS_and_sitebuilders_questions/article7.html">Shopping Carts Overview</a>
+<a href="/pre-sale_questions/CMS_and_sitebuilders_questions/article2.html">Are your templates compatible with Site2You sitebuilder?</a>
+<a href="/pre-sale_questions/CMS_and_sitebuilders_questions/article4.html">Can I use your templates with Yahoo Page Builder?</a>
+<a href="/pre-sale_questions/CMS_and_sitebuilders_questions/article5.html">Can you convert my template into a PHP-Nuke theme?</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat38" onclick="ShowHideCategory(38)" src="/images/folder_plus.gif" alt=""/>
+<a href="/pre-sale_questions/other_questions/">Other Questions</a>
+</div>
+<div id="cat38" class="tmhelp_th_category">
+<a href="/pre-sale_questions/other_questions/article10.html">I want to start a web site, but I don't know what to do?</a>
+<a href="/pre-sale_questions/other_questions/article2.html">Can I review subpages of the template?</a>
+<a href="/pre-sale_questions/other_questions/article3.html">Are database setup instructions included in PHP-Nuke Themes?</a>
+<a href="/pre-sale_questions/other_questions/article4.html">Do you sell adult website templates?</a>
+<a href="/pre-sale_questions/other_questions/article6.html">Do zip files expire?</a>
+<a href="/pre-sale_questions/other_questions/article8.html">How do I know the template package file size?</a>
+<a href="/pre-sale_questions/other_questions/article9.html">If I purchase 10 or more templates at one time, can I get a rebate?</a>
+<a href="/pre-sale_questions/other_questions/article11.html">What is a CSS Template? (extended definition)</a>
+<a href="/pre-sale_questions/other_questions/article12.html">What is the difference between the "ADD TO CART" and "BUY" buttons?</a>
+<a href="/pre-sale_questions/other_questions/article13.html">Difference between FrontPage and HTML templates</a>
+</div>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat41" onclick="ShowHideCategory(41)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Billing_questions/">Billing Questions</a>
+</div>
+<div id="cat41" class="tmhelp_th_category">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat42" onclick="ShowHideCategory(42)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Billing_questions/payment_options/">Payment options</a>
+</div>
+<div id="cat42" class="tmhelp_th_category">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat43" onclick="ShowHideCategory(43)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Billing_questions/payment_options/credit_card_purchase/">Credit card purchase</a>
+</div>
+<div id="cat43" class="tmhelp_th_category">
+<a href="/Billing_questions/payment_options/credit_card_purchase/article2.html">Can I pay with a Solo card?</a>
+<a href="/Billing_questions/payment_options/credit_card_purchase/article3.html">How will the charge show up on my credit card statement?</a>
+<a href="/Billing_questions/payment_options/credit_card_purchase/article4.html">Are my payments absolutely secure via Credit Card?</a>
+<a href="/Billing_questions/payment_options/credit_card_purchase/article5.html">My credit card was declined. What do I need to do?</a>
+<a href="/Billing_questions/payment_options/credit_card_purchase/article6.html">What credt cards do you accept?</a>
+<a href="/Billing_questions/payment_options/credit_card_purchase/article7.html">What if my credit card does not have a CVV2 code on the back?</a>
+<a href="/Billing_questions/payment_options/credit_card_purchase/article8.html">What is CVV code?</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat45" onclick="ShowHideCategory(45)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Billing_questions/payment_options/non_credit_card_purchase/">Non-credit card purchase</a>
+</div>
+<div id="cat45" class="tmhelp_th_category">
+<a href="/Billing_questions/payment_options/non_credit_card_purchase/article2.html">Alternative means of payment for EU citizens</a>
+<a href="/Billing_questions/payment_options/non_credit_card_purchase/article3.html">Can I pay by check or over the phone?</a>
+<a href="/Billing_questions/payment_options/non_credit_card_purchase/article4.html">How do I pay with Moneybookers.com?</a>
+<a href="/Billing_questions/payment_options/non_credit_card_purchase/article5.html">I paid with Moneybookers.com but have not received my product</a>
+<a href="/Billing_questions/payment_options/non_credit_card_purchase/article6.html">What is SMS and what do I need to do to complete my order?</a>
+<a href="/Billing_questions/payment_options/non_credit_card_purchase/article7.html">What is WebMoney?</a>
+</div>
+<a href="/Billing_questions/payment_options/article3.html">Payment methods</a>
+<a href="/Billing_questions/payment_options/article2.html">Can 2CheckOut bill in different currencies?</a>
+<a href="/Billing_questions/payment_options/article4.html">Will I be charged once</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat48" onclick="ShowHideCategory(48)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Billing_questions/verification_process/">Verification process</a>
+</div>
+<div id="cat48" class="tmhelp_th_category">
+<a href="/Billing_questions/verification_process/article2.html">How do I know if my payment has gone through?</a>
+<a href="/Billing_questions/verification_process/article3.html">I do not have a phone for verification.</a>
+<a href="/Billing_questions/verification_process/article4.html">Why do I have to undergo anti-fraud verification?</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat50" onclick="ShowHideCategory(50)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Billing_questions/delivery_and_invoices/">Delivery and invoices</a>
+</div>
+<div id="cat50" class="tmhelp_th_category">
+<a href="/Billing_questions/delivery_and_invoices/article2.html">Do you ship your products overseas?</a>
+<a href="/Billing_questions/delivery_and_invoices/article3.html">How long does it take to get the template after the purchase?</a>
+<a href="/Billing_questions/delivery_and_invoices/article4.html">How do I get an invoice?</a>
+<a href="/Billing_questions/delivery_and_invoices/article6.html">I need to return my product, cancel my order or get a refund</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat52" onclick="ShowHideCategory(52)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Billing_questions/problems_with_download/">Problems with download</a>
+</div>
+<div id="cat52" class="tmhelp_th_category">
+<a href="/Billing_questions/problems_with_download/article8.html">I downloaded "get.php" file and can't handle it with my MAC</a>
+<a href="/Billing_questions/problems_with_download/article3.html">Corrupted files - links inactive</a>
+<a href="/Billing_questions/problems_with_download/article4.html">Does the link expire in 24 hours?</a>
+<a href="/Billing_questions/problems_with_download/article5.html">How big are the template files? Can I use download manager?</a>
+<a href="/Billing_questions/problems_with_download/article6.html">How can I get my 100+ bonus windows fonts?</a>
+<a href="/Billing_questions/problems_with_download/article7.html">Trouble with downloading free clipart library items</a>
+<a href="/Billing_questions/problems_with_download/article9.html">I have downloaded the zip file and its not working</a>
+<a href="/Billing_questions/problems_with_download/article10.html">I received no download instructions</a>
+<a href="/Billing_questions/problems_with_download/article11.html">I misspelled my email while ordering</a>
+<a href="/Billing_questions/problems_with_download/article12.html">"Link is inactive" message</a>
+<a href="/Billing_questions/problems_with_download/article13.html">Lost files - how can I redownload?</a>
+<a href="/Billing_questions/problems_with_download/article15.html">The link goes nowhere</a>
+<a href="/Billing_questions/problems_with_download/article16.html">I paid for my order but I haven't got my template.</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat54" onclick="ShowHideCategory(54)" src="/images/folder_plus.gif" alt=""/>
+<a href="/Billing_questions/other_questions/">Other questions</a>
+</div>
+<div id="cat54" class="tmhelp_th_category">
+<a href="/Billing_questions/other_questions/article2.html">I've been billed incorrectly - what should I do?</a>
+<a href="/Billing_questions/other_questions/article3.html">I have purchased the wrong template. Can I exchange it?</a>
+</div>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat57" onclick="ShowHideCategory(57)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/">After Sale Support</a>
+</div>
+<div id="cat57" class="tmhelp_th_category">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat58" onclick="ShowHideCategory(58)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/inside/">What's Inside the Template</a>
+</div>
+<div id="cat58" class="tmhelp_th_category">
+<a href="/after_sale_support/inside/article2.html">What is a Zip File?</a>
+<a href="/after_sale_support/inside/article5.html">Which version of WinZip works better</a>
+<a href="/after_sale_support/inside/article4.html">Unzipping Template Package</a>
+<a href="/after_sale_support/inside/article3.html">Logo Template Structure</a>
+<a href="/after_sale_support/inside/article25.html">Corporate Identity Template Structure</a>
+<a href="/after_sale_support/inside/article6.html">Template or Homepage Template Structure</a>
+<a href="/after_sale_support/inside/article7.html">Full Site Template Structure  </a>
+<a href="/after_sale_support/inside/article28.html">Stretched Full Site Template Structure</a>
+<a href="/after_sale_support/inside/article31.html">Static Full Site Template Structure</a>
+<a href="/after_sale_support/inside/article8.html">Flash Animated Template Structure</a>
+<a href="/after_sale_support/inside/article9.html">Flash Intro Template Structure  </a>
+<a href="/after_sale_support/inside/article26.html">Flash Intro 8 Template Structure</a>
+<a href="/after_sale_support/inside/article10.html">Flash Site Template Structure  </a>
+<a href="/after_sale_support/inside/article27.html">Flash Site 8 Template Structure</a>
+<a href="/after_sale_support/inside/article32.html">Dynamic Flash Template Structure</a>
+<a href="/after_sale_support/inside/article11.html">Full Package Template Structure  </a>
+<a href="/after_sale_support/inside/article29.html">Stretched Full Package Template Structure</a>
+<a href="/after_sale_support/inside/article12.html">PHP-Nuke Theme Structure</a>
+<a href="/after_sale_support/inside/article13.html">Fireworks Template Structure</a>
+<a href="/after_sale_support/inside/article24.html">Icon Set Template Structure</a>
+<a href="/after_sale_support/inside/article14.html">3 Color Template Structure</a>
+<a href="/after_sale_support/inside/article16.html">3 Color Full Site Template Structure</a>
+<a href="/after_sale_support/inside/article15.html">CSS Static Full Site Template Structure</a>
+<a href="/after_sale_support/inside/article30.html">CSS Static Full Package Template Structure</a>
+<a href="/after_sale_support/inside/article17.html">SWiSH Animated Template Structure</a>
+<a href="/after_sale_support/inside/article33.html">Dynamic Swish Template Structure</a>
+<a href="/after_sale_support/inside/article18.html">OsCommerce Template Structure</a>
+<a href="/after_sale_support/inside/article19.html">phpBB2 Template Structure</a>
+<a href="/after_sale_support/inside/article20.html">ZenCart Template Structure</a>
+<a href="/after_sale_support/inside/article22.html">CRE Loaded Template Structure</a>
+<a href="/after_sale_support/inside/article23.html">WordPress Theme Structure</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat60" onclick="ShowHideCategory(60)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/software_requirement/">Software Requirements</a>
+</div>
+<div id="cat60" class="tmhelp_th_category">
+<a href="/after_sale_support/software_requirement/article2.html">Logo Template Software Requirements</a>
+<a href="/after_sale_support/software_requirement/article3.html">Regular Template Software Requirements</a>
+<a href="/after_sale_support/software_requirement/article4.html">Full Site Template Software Requirements</a>
+<a href="/after_sale_support/software_requirement/article14.html">Full Site mx2004 Template Software Requirements</a>
+<a href="/after_sale_support/software_requirement/article5.html">Flash Animated Template Software Requirements</a>
+<a href="/after_sale_support/software_requirement/article15.html">Flash Animated mx2004 Template Software Requirements</a>
+<a href="/after_sale_support/software_requirement/article6.html">Flash Intro Template Software Requirements</a>
+<a href="/after_sale_support/software_requirement/article7.html">Flash Site Software Requirements</a>
+<a href="/after_sale_support/software_requirement/article8.html">Full Package Template Software Requirements</a>
+<a href="/after_sale_support/software_requirement/article9.html">PHP-Nuke Theme Software Requirements</a>
+<a href="/after_sale_support/software_requirement/article10.html">Fireworks Template Software Requirements  </a>
+<a href="/after_sale_support/software_requirement/article11.html">3 Color Template Software Requirements</a>
+<a href="/after_sale_support/software_requirement/article12.html">CSS Template Software Requirements  </a>
+<a href="/after_sale_support/software_requirement/article13.html">Links to Required Software on the Web</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat62" onclick="ShowHideCategory(62)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/installing_fonts/">Working with fonts</a>
+</div>
+<div id="cat62" class="tmhelp_th_category">
+<a href="/after_sale_support/installing_fonts/article1.html">Installing Fonts</a>
+<a href="/after_sale_support/installing_fonts/article3.html">Installing Fonts in Mac OS X</a>
+<a href="/after_sale_support/installing_fonts/article4.html">Installing Fonts in Mac OS 8, 9 or OS X Classic</a>
+<a href="/after_sale_support/installing_fonts/article6.html">Using Eastern Fonts in templates</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat64" onclick="ShowHideCategory(64)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/working_with_html/">Working with HTML</a>
+</div>
+<div id="cat64" class="tmhelp_th_category">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat65" onclick="ShowHideCategory(65)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/working_with_html/Basic/">Basic</a>
+</div>
+<div id="cat65" class="tmhelp_th_category">
+<a href="/after_sale_support/working_with_html/Basic/article14.html">Opening an HTML file  </a>
+<a href="/after_sale_support/working_with_html/Basic/article22.html">Changing text in HTML editor</a>
+<a href="/after_sale_support/working_with_html/Basic/article25.html">Adding images using HTML editor</a>
+<a href="/after_sale_support/working_with_html/Basic/article24.html">Setting links in HTML editor</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat67" onclick="ShowHideCategory(67)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/working_with_html/Advanced/">Advanced</a>
+</div>
+<div id="cat67" class="tmhelp_th_category">
+<a href="/after_sale_support/working_with_html/Advanced/article14.html">How to create a contact form in HTML</a>
+<a href="/after_sale_support/working_with_html/Advanced/article6.html">Editing titles and headings in the non flash version</a>
+<a href="/after_sale_support/working_with_html/Advanced/article4.html">Setting up gallery thumbnails</a>
+<a href="/after_sale_support/working_with_html/Advanced/article19.html">Trouble importing pictures in Dreamweaver</a>
+<a href="/after_sale_support/working_with_html/Advanced/article16.html">Images are missing in HTML</a>
+<a href="/after_sale_support/working_with_html/Advanced/article2.html">Creating a floating window</a>
+<a href="/after_sale_support/working_with_html/Advanced/article3.html">Creating an image gallery</a>
+<a href="/after_sale_support/working_with_html/Advanced/article10.html">How to center my website on the screen</a>
+<a href="/after_sale_support/working_with_html/Advanced/article15.html">How to create an ASP contact form in HTML</a>
+<a href="/after_sale_support/working_with_html/Advanced/article18.html">How to add your site to bookmarks</a>
+<a href="/after_sale_support/working_with_html/Advanced/article7.html">Making the width size of the HTML template fill up to 100%</a>
+<a href="/after_sale_support/working_with_html/Advanced/article17.html">Incompatibility with GoLive</a>
+<a href="/after_sale_support/working_with_html/Advanced/article1.html">Changing text font and color in HTML editor</a>
+<a href="/after_sale_support/working_with_html/Advanced/article13.html">How to use the "Includes" option in Dreamweaver</a>
+<a href="/after_sale_support/working_with_html/Advanced/article11.html">How to embed flash intro in HTML</a>
+<a href="/after_sale_support/working_with_html/Advanced/article9.html">How to add multiple link styles on the same page</a>
+<a href="/after_sale_support/working_with_html/Advanced/article8.html">How do I remove the underlines from links</a>
+<a href="/after_sale_support/working_with_html/Advanced/article5.html">Creating Subpages (non flash version)</a>
+<a href="/after_sale_support/working_with_html/Advanced/article12.html">How do I link to an Adobe PDF document</a>
+<a href="/after_sale_support/working_with_html/Advanced/article21.html">Pages are not accessible after renaming</a>
+<a href="/after_sale_support/working_with_html/Advanced/article20.html">Search form comes up as an image </a>
+</div>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat70" onclick="ShowHideCategory(70)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/working_with_photoshop/">Working with Photoshop</a>
+</div>
+<div id="cat70" class="tmhelp_th_category">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat71" onclick="ShowHideCategory(71)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/working_with_photoshop/Basic/">Basic</a>
+</div>
+<div id="cat71" class="tmhelp_th_category">
+<a href="/after_sale_support/working_with_photoshop/Basic/article9.html">Opening a PSD file  </a>
+<a href="/after_sale_support/working_with_photoshop/Basic/article3.html">Changing text in Adobe Photoshop</a>
+<a href="/after_sale_support/working_with_photoshop/Basic/article7.html">Changing images in Adobe Photoshop</a>
+<a href="/after_sale_support/working_with_photoshop/Basic/article13.html">Update changes to your template</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat73" onclick="ShowHideCategory(73)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/working_with_photoshop/Advanced/">Advanced</a>
+</div>
+<div id="cat73" class="tmhelp_th_category">
+<a href="/after_sale_support/working_with_photoshop/Advanced/article11.html">Changing image colors in Adobe Photoshop</a>
+<a href="/after_sale_support/working_with_photoshop/Advanced/article8.html">Missing fonts from the PSD file</a>
+<a href="/after_sale_support/working_with_photoshop/Advanced/article12.html">Whole page PSD files editing</a>
+<a href="/after_sale_support/working_with_photoshop/Advanced/article2.html">Are the layers flattened and locked in .psd files?</a>
+<a href="/after_sale_support/working_with_photoshop/Advanced/article4.html">Do I need to slice the template PSD files myself?</a>
+<a href="/after_sale_support/working_with_photoshop/Advanced/article5.html">Fireworks MX and Photoshop compatibility</a>
+<a href="/after_sale_support/working_with_photoshop/Advanced/article6.html">How to add text to images</a>
+</div>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat76" onclick="ShowHideCategory(76)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Working_with_Flash/">Working with Flash</a>
+</div>
+<div id="cat76" class="tmhelp_th_category">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat77" onclick="ShowHideCategory(77)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Working_with_Flash/Basic/">Basic</a>
+</div>
+<div id="cat77" class="tmhelp_th_category">
+<a href="/after_sale_support/Working_with_Flash/Basic/article5.html">Opening an FLA file  </a>
+<a href="/after_sale_support/Working_with_Flash/Basic/article22.html">Changing text in Flash</a>
+<a href="/after_sale_support/Working_with_Flash/Basic/article23.html">Assigning links in Flash</a>
+<a href="/after_sale_support/Working_with_Flash/Basic/article24.html">Changing images in Flash</a>
+<a href="/after_sale_support/Working_with_Flash/Basic/article25.html">Publishing Your Flash Movie</a>
+<a href="/after_sale_support/Working_with_Flash/Basic/article2.html">Saving and version control</a>
+<a href="/after_sale_support/Working_with_Flash/Basic/article3.html">"Unexpected file format" error</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat79" onclick="ShowHideCategory(79)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Working_with_Flash/Advanced/">Advanced</a>
+</div>
+<div id="cat79" class="tmhelp_th_category">
+<a href="/after_sale_support/Working_with_Flash/Advanced/article21.html">What is an SWF file</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article4.html">Exporting images from flash</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article22.html">SWF Metadata in Macromedia Flash 8 </a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article14.html">Flash site getting stuck on loading</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article7.html">How to make a contact form work</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article2.html">Current time and date in Flash</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article3.html">Element appears in .FLA movie but not in published .SWF</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article6.html">How can I add a flash page to Favorites</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article8.html">How to make images display randomly</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article9.html">How do I link a button to an Adobe PDF document</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article10.html">How do I resize the images loaded in a flash movie</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article11.html">How to go back to the main scene in flash</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article18.html">Skipping the animation_header(SharedObject)</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article13.html">How to change the speed in flash</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article15.html">Using templates for presentations on CD</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article16.html">Using browser's forward & backward buttons in a flash site</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article17.html">Using the ScrollPane</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article12.html">Skipping flash header animation on certain pages</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article5.html">IE6 SP2 security settings</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article19.html">Switching on warning on missing fonts option</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article20.html">Using Java script to open new windows with a fixed size</a>
+<a href="/after_sale_support/Working_with_Flash/Advanced/article23.html">How to disable ActiveX warning in IE6/7</a>
+</div>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat82" onclick="ShowHideCategory(82)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Working_with_Dynamic_Flash/">Working with Dynamic Flash</a>
+</div>
+<div id="cat82" class="tmhelp_th_category">
+<a href="/after_sale_support/Working_with_Dynamic_Flash/article2.html">How to edit a Dynamic Flash Template</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash/article3.html">Contact form in Dynamic Flash templates</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash/article4.html">How to add special characters</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash/article5.html">Saving JPG images from PSD for Dynamic Flash templates</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat84" onclick="ShowHideCategory(84)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/">Working with Dynamic Flash Photo Galleries</a>
+</div>
+<div id="cat84" class="tmhelp_th_category">
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/article2.html">Product Description</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/article6.html">General Guideline for Gallery Usage</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/article3.html">Gallery Settings</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/article4.html">Service Gallery Settings</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/article5.html">Gallery Layout Settings</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/article7.html">How to increase max file size</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/article8.html">How to protect admin folder with .htaccess</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/article9.html">How to manage login details in admin panel</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/article10.html">How to manage (change and load) fonts</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/article11.html">How to use FontLibraryCreator</a>
+<a href="/after_sale_support/Working_with_Dynamic_Flash_Galleries/article12.html">Editing XML in Dreamweaver on MAC</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat86" onclick="ShowHideCategory(86)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/xml_contact_forms/">Working with XML-based forms</a>
+</div>
+<div id="cat86" class="tmhelp_th_category">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat87" onclick="ShowHideCategory(87)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/xml_contact_forms/basic/">Basic</a>
+</div>
+<div id="cat87" class="tmhelp_th_category">
+<a href="/after_sale_support/xml_contact_forms/basic/article2.html">Getting Started</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat89" onclick="ShowHideCategory(89)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/xml_contact_forms/advanced/">Advanced</a>
+</div>
+<div id="cat89" class="tmhelp_th_category">
+<a href="/after_sale_support/xml_contact_forms/advanced/article2.html">formConfiguration.xml file</a>
+<a href="/after_sale_support/xml_contact_forms/advanced/article3.html">formStructure.xml file</a>
+</div>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat92" onclick="ShowHideCategory(92)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Working_with_SWISHMax/">Working with SWISHMax</a>
+</div>
+<div id="cat92" class="tmhelp_th_category">
+<a href="/after_sale_support/Working_with_SWISHMax/article2.html">Opening Your SWI file</a>
+<a href="/after_sale_support/Working_with_SWISHMax/article3.html">Editing Text</a>
+<a href="/after_sale_support/Working_with_SWISHMax/article4.html">Assigning Links</a>
+<a href="/after_sale_support/Working_with_SWISHMax/article5.html">Changing Images</a>
+<a href="/after_sale_support/Working_with_SWISHMax/article6.html">Exporting the SWF file</a>
+<a href="/after_sale_support/Working_with_SWISHMax/article7.html">How to create a contact form</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat94" onclick="ShowHideCategory(94)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/working_with_css/">Working with CSS</a>
+</div>
+<div id="cat94" class="tmhelp_th_category">
+<a href="/after_sale_support/working_with_css/article3.html"> What is CSS?</a>
+<a href="/after_sale_support/working_with_css/article2.html">Editing CSS</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat96" onclick="ShowHideCategory(96)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Working_with_osc/">Working with OsCommerce</a>
+</div>
+<div id="cat96" class="tmhelp_th_category">
+<a href="/after_sale_support/Working_with_osc/article2.html">How to install an osCommerce template  </a>
+<a href="/after_sale_support/Working_with_osc/article3.html">Setting up your existing shop without re-installing</a>
+<a href="/after_sale_support/Working_with_osc/article4.html">Changing the number of the new products</a>
+<a href="/after_sale_support/Working_with_osc/article5.html">How to update images</a>
+<a href="/after_sale_support/Working_with_osc/article6.html">Registering globals in OsCommerce template</a>
+<a href="/after_sale_support/Working_with_osc/article7.html">Configure.php file permissions</a>
+<a href="/after_sale_support/Working_with_osc/article8.html">OsCommerce copyright</a>
+<a href="/after_sale_support/Working_with_osc/article9.html">How to turn infoboxes on/off</a>
+<a href="/after_sale_support/Working_with_osc/article10.html">Product description</a>
+<a href="/after_sale_support/Working_with_osc/article13.html">How to link the template banners to a specific category/product</a>
+<a href="/after_sale_support/Working_with_osc/article11.html">How to install a contribution</a>
+<a href="/after_sale_support/Working_with_osc/article12.html">How to hide prices</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat98" onclick="ShowHideCategory(98)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Working_with_ZenCart_templates/">Working with ZenCart</a>
+</div>
+<div id="cat98" class="tmhelp_th_category">
+<a href="/after_sale_support/Working_with_ZenCart_templates/article2.html">How to install a Zen Cart Template</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article3.html">How to change "Powered by Zen Cart"</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article4.html">How to configure your Zen Cart Shop</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article5.html">Defining Meta Tags for the Products</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article6.html">Free Shipping for Bigger Orders</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article7.html">How to add multiple images to a product</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article8.html">How to show the Categories on the main page</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article9.html">How to Turn off Reviews and Tell A Friend</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article10.html">I can't login to the Admin panel after installing ZenCart</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article11.html">Changing Languages and Character Settings</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article12.html">Managing the Product Catalog</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article13.html">SSL Protection for Your Store</a>
+<a href="/after_sale_support/Working_with_ZenCart_templates/article14.html">If stylesheet is not loading</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat100" onclick="ShowHideCategory(100)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Working_with_CRE_Loaded/">Working with CRE Loaded</a>
+</div>
+<div id="cat100" class="tmhelp_th_category">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat101" onclick="ShowHideCategory(101)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Working_with_CRE_Loaded/engine_description/">CRE Loaded Engine Description</a>
+</div>
+<div id="cat101" class="tmhelp_th_category">
+<a href="/after_sale_support/Working_with_CRE_Loaded/engine_description/article2.html">The engine structure</a>
+<a href="/after_sale_support/Working_with_CRE_Loaded/engine_description/article3.html">The Content</a>
+<a href="/after_sale_support/Working_with_CRE_Loaded/engine_description/article4.html">The template layout structure</a>
+<a href="/after_sale_support/Working_with_CRE_Loaded/engine_description/article5.html">The Product Info page</a>
+<a href="/after_sale_support/Working_with_CRE_Loaded/engine_description/article6.html">Shopping Cart page</a>
+<a href="/after_sale_support/Working_with_CRE_Loaded/engine_description/article7.html">The Infoboxes</a>
+</div>
+<a href="/after_sale_support/Working_with_CRE_Loaded/article2.html">How to install a CRE Loaded template</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat104" onclick="ShowHideCategory(104)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/working_with_wordpress/">Working with WordPress</a>
+</div>
+<div id="cat104" class="tmhelp_th_category">
+<a href="/after_sale_support/working_with_wordpress/article2.html">How to install a WordPress theme</a>
+<a href="/after_sale_support/working_with_wordpress/article3.html">How to install and use widgets</a>
+<a href="/after_sale_support/working_with_wordpress/article4.html">How to optimize WP 2.1 for WP 2.0.x</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat106" onclick="ShowHideCategory(106)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/working_with_php-nuke/">Working with Php-Nuke</a>
+</div>
+<div id="cat106" class="tmhelp_th_category">
+<a href="/after_sale_support/working_with_php-nuke/article2.html">How to install a PHP-Nuke Theme</a>
+<a href="/after_sale_support/working_with_php-nuke/article3.html">Setting up Webmail in PHP Nuke</a>
+<a href="/after_sale_support/working_with_php-nuke/article4.html">PHP-Nuke and Adobe Photoshop screenshots differences</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat108" onclick="ShowHideCategory(108)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/working_with_phpbb/">Working with phpBB</a>
+</div>
+<div id="cat108" class="tmhelp_th_category">
+<a href="/after_sale_support/working_with_phpbb/article2.html">How to install a phpBB skin</a>
+<a href="/after_sale_support/working_with_phpbb/article3.html">How to edit a phpBB theme</a>
+<a href="/after_sale_support/working_with_phpbb/article4.html">Avatar files permissions</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat110" onclick="ShowHideCategory(110)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Uploading_files_to_a_server/">Uploading files to a server</a>
+</div>
+<div id="cat110" class="tmhelp_th_category">
+<a href="/after_sale_support/Uploading_files_to_a_server/article8.html">How to upload files to a server</a>
+<a href="/after_sale_support/Uploading_files_to_a_server/article5.html">Missing images after publishing</a>
+<a href="/after_sale_support/Uploading_files_to_a_server/article2.html">How to update the template booklet.</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat112" onclick="ShowHideCategory(112)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/other_questions/">Other Questions</a>
+</div>
+<div id="cat112" class="tmhelp_th_category">
+<a href="/after_sale_support/other_questions/article2.html">Is 3D Studio MAX required to edit 3D style templates</a>
+<a href="/after_sale_support/other_questions/article3.html">Changing the color of the templates</a>
+<a href="/after_sale_support/other_questions/article4.html">Adding background sound</a>
+<a href="/after_sale_support/other_questions/article5.html">Removing watermarks from logo templates</a>
+<a href="/after_sale_support/other_questions/article6.html">Replacing the "dummy" logo with another one</a>
+<a href="/after_sale_support/other_questions/article7.html">Taking screenshots in Mac OS X</a>
+<a href="/after_sale_support/other_questions/article10.html">Running a video clip in flash templates</a>
+<a href="/after_sale_support/other_questions/article11.html">Language of the template</a>
+<a href="/after_sale_support/other_questions/article12.html">Logo and JPEG format</a>
+<a href="/after_sale_support/other_questions/article13.html">Screen resolution compatibility</a>
+<a href="/after_sale_support/other_questions/article14.html">Where to get some scripts</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat114" onclick="ShowHideCategory(114)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/">Demo movies database</a>
+</div>
+<div id="cat114" class="tmhelp_th_category">
+   <div class="tmhelp_th_folder">
+       <img id="imgCat115" onclick="ShowHideCategory(115)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/AfterEffects/">AfterEffects</a>
+</div>
+<div id="cat115" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/AfterEffects/article2.html">How to render video files in Adobe After Effects</a>
+<a href="/after_sale_support/Demo_movies_database/AfterEffects/article3.html">How to create FLV video from 3d max source</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat117" onclick="ShowHideCategory(117)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/Flash/">Flash</a>
+</div>
+<div id="cat117" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/Flash/article2.html">How to access elements using the library</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article3.html">How to add new music samples in the Flash playlist</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article4.html">How to assign links</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article13.html">How to edit text in flash</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article31.html">How to change the color of the embedded FLV movie</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article5.html">How to break text apart in flash</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article6.html">How to change color gradation</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article7.html">How to change images</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article8.html">How to create a combobox</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article9.html">How to create a dynamic text field</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article10.html">How to create a masked text</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article11.html">How to create a scrolling bar</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article14.html">How to create a gallery and link it to the main scene</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article15.html">How to duplicate and swap objects</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article16.html">How to edit a scroll</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article17.html">How to go back to a specific place in a movie</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article18.html">How to import video by means of rendered images</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article19.html">How to link a flash intro to the main site</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article20.html">How to make a new gallery and link images</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article21.html">How to make a spinning logo</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article22.html">How to modify colors</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article23.html">How to redirect the flash intro to the website</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article24.html">How to skip a flash movie</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article25.html">How to skip a flash movie (alternative)</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article36.html">How to disable ActiveX warning in IE6/7</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article34.html">How to make a contact form work</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article28.html">How to change a loop sound (first method)</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article29.html">How to swap the logo for rollover button</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article30.html">How to work with sound icons</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article32.html">How to swap loop sound (alternative)</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article35.html">How to manage popups</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article12.html">How to change a pop up position</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article26.html">How to set up current time and date</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article33.html">How to make images display randomly</a>
+<a href="/after_sale_support/Demo_movies_database/Flash/article27.html">How to resize popups</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat119" onclick="ShowHideCategory(119)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/Dynamic_Flash/">Dynamic Flash</a>
+</div>
+<div id="cat119" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/Dynamic_Flash/article7.html">How to edit a dynamic flash template</a>
+<a href="/after_sale_support/Demo_movies_database/Dynamic_Flash/article2.html">How to add special characters</a>
+<a href="/after_sale_support/Demo_movies_database/Dynamic_Flash/article3.html">How to convert dynamic flash to a regular one</a>
+<a href="/after_sale_support/Demo_movies_database/Dynamic_Flash/article4.html">How to create a new dynamic flash page (1st method)</a>
+<a href="/after_sale_support/Demo_movies_database/Dynamic_Flash/article5.html">How to create a new dynamic flash page (2nd method)</a>
+<a href="/after_sale_support/Demo_movies_database/Dynamic_Flash/article6.html">How to change a dynamic flash gallery</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat121" onclick="ShowHideCategory(121)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/dynamic_flash_galleries/">Dynamic Flash Photo Gallery</a>
+</div>
+<div id="cat121" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/dynamic_flash_galleries/article2.html">How to work with images</a>
+<a href="/after_sale_support/Demo_movies_database/dynamic_flash_galleries/article3.html">How to work with categories</a>
+<a href="/after_sale_support/Demo_movies_database/dynamic_flash_galleries/article4.html">How to use gallery settings tool</a>
+<a href="/after_sale_support/Demo_movies_database/dynamic_flash_galleries/article5.html">How to use FontLibraryCreator</a>
+<a href="/after_sale_support/Demo_movies_database/dynamic_flash_galleries/article6.html">How to use special characters in category names</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat123" onclick="ShowHideCategory(123)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/xml_flash/">XML Flash Templates</a>
+</div>
+<div id="cat123" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/xml_flash/article2.html">How to edit XML Flash templates</a>
+<a href="/after_sale_support/Demo_movies_database/xml_flash/article3.html">How to make text selectable</a>
+<a href="/after_sale_support/Demo_movies_database/xml_flash/article4.html">How to reposition menu buttons</a>
+<a href="/after_sale_support/Demo_movies_database/xml_flash/article5.html">How to add new "read more" page</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat125" onclick="ShowHideCategory(125)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/Fonts/">Fonts</a>
+</div>
+<div id="cat125" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/Fonts/article3.html">Installing TrueType (TTF) fonts</a>
+<a href="/after_sale_support/Demo_movies_database/Fonts/article2.html">Installing Adobe Type (PFM/PFB) fonts</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat127" onclick="ShowHideCategory(127)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/Html/">Html</a>
+</div>
+<div id="cat127" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/Html/article2.html">How to choose a background color</a>
+<a href="/after_sale_support/Demo_movies_database/Html/article3.html">How to use frames for the gallery</a>
+<a href="/after_sale_support/Demo_movies_database/Html/article4.html">How to create an image gallery</a>
+<a href="/after_sale_support/Demo_movies_database/Html/article5.html">How to set up gallery thumbnails</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat129" onclick="ShowHideCategory(129)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/SWishMax/">SWiSHMax</a>
+</div>
+<div id="cat129" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/SWishMax/article4.html">How to edit text</a>
+<a href="/after_sale_support/Demo_movies_database/SWishMax/article5.html">How to assign a link</a>
+<a href="/after_sale_support/Demo_movies_database/SWishMax/article6.html">How to change images</a>
+<a href="/after_sale_support/Demo_movies_database/SWishMax/article7.html">How to change colors</a>
+<a href="/after_sale_support/Demo_movies_database/SWishMax/article8.html">How to change sound</a>
+<a href="/after_sale_support/Demo_movies_database/SWishMax/article9.html">How to extend a slideshow</a>
+<a href="/after_sale_support/Demo_movies_database/SWishMax/article10.html">How to work with combobox</a>
+<a href="/after_sale_support/Demo_movies_database/SWishMax/article11.html">How to create a contact form</a>
+<a href="/after_sale_support/Demo_movies_database/SWishMax/article12.html">How to edit a text with effect</a>
+<a href="/after_sale_support/Demo_movies_database/SWishMax/article3.html">How to skip header animation</a>
+<a href="/after_sale_support/Demo_movies_database/SWishMax/article2.html">How to add subpages</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat131" onclick="ShowHideCategory(131)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/swish2/">SWiSH Max2</a>
+</div>
+<div id="cat131" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/swish2/article2.html">How to edit text in SWiSH Max2</a>
+<a href="/after_sale_support/Demo_movies_database/swish2/article3.html">How to change images in SWiSH Max2</a>
+<a href="/after_sale_support/Demo_movies_database/swish2/article4.html">How to extend a slideshow in SWiSH Max2</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat133" onclick="ShowHideCategory(133)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/Joomla/">Joomla!</a>
+</div>
+<div id="cat133" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/Joomla/article2.html">How to install Joomla! engine</a>
+<a href="/after_sale_support/Demo_movies_database/Joomla/article3.html">How to install Joomla! template and apply class suffixes</a>
+<a href="/after_sale_support/Demo_movies_database/Joomla/article4.html">How to add new modules</a>
+<a href="/after_sale_support/Demo_movies_database/Joomla/article5.html">How to install Joomla! 1.5 engine</a>
+<a href="/after_sale_support/Demo_movies_database/Joomla/article6.html">How to install Joomla! 1.5 template via admin panel</a>
+<a href="/after_sale_support/Demo_movies_database/Joomla/article7.html">How to add a menu article without sidebars</a>
+<a href="/after_sale_support/Demo_movies_database/Joomla/article8.html">How to edit text properties in articles</a>
+<a href="/after_sale_support/Demo_movies_database/Joomla/article9.html">How to remove "Powered by Joomla!"</a>
+<a href="/after_sale_support/Demo_movies_database/Joomla/article10.html">How to remove Welcome to Frontpage</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat135" onclick="ShowHideCategory(135)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/Drupal/">Drupal</a>
+</div>
+<div id="cat135" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/Drupal/article2.html">How to install drupal engine</a>
+<a href="/after_sale_support/Demo_movies_database/Drupal/article3.html">How to install drupal theme and configure the blocks</a>
+<a href="/after_sale_support/Demo_movies_database/Drupal/article4.html">How to create a page</a>
+<a href="/after_sale_support/Demo_movies_database/Drupal/article5.html">How to create a poll</a>
+<a href="/after_sale_support/Demo_movies_database/Drupal/article6.html">How to create a new block</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat137" onclick="ShowHideCategory(137)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/">OsCommerce</a>
+</div>
+<div id="cat137" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article11.html">Uploading files and changing permissions</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article8.html">How to create a database</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article10.html">Installing and encountering an error</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article4.html">Final steps of installation</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article2.html">Changing default shop name</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article3.html">Changing default shop name (admin panel)</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article5.html">How to activate "Products expected" feature</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article6.html">How to activate "Tell a friend" feature</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article7.html">How to add more languages</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article9.html">How to make buttons in different languages</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article14.html">How to backup a database and install it</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article13.html">How to update images</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article12.html">Setting up your existing shop without re-installing</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article15.html">How to add a new language and update the buttons</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article16.html">How to turn infoboxes on/off</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article17.html">How to install a contribution</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article18.html">How to add product attributes </a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article19.html">How to add a new product</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article20.html">How to enable Download feature</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article21.html">How to hide prices</a>
+<a href="/after_sale_support/Demo_movies_database/OsCommerce/article22.html">How to add a new page</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat139" onclick="ShowHideCategory(139)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/ZenCart/">ZenCart</a>
+</div>
+<div id="cat139" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/ZenCart/article2.html">How to install a Zen Cart Template</a>
+<a href="/after_sale_support/Demo_movies_database/ZenCart/article3.html">How to update images</a>
+<a href="/after_sale_support/Demo_movies_database/ZenCart/article4.html">How to change "Powered by Zen Cart"</a>
+<a href="/after_sale_support/Demo_movies_database/ZenCart/article5.html">How to add multiple images to a product</a>
+<a href="/after_sale_support/Demo_movies_database/ZenCart/article6.html">How to add menu tabs</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat141" onclick="ShowHideCategory(141)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/CRE_Loaded/">CRE Loaded</a>
+</div>
+<div id="cat141" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/CRE_Loaded/article2.html">How to install a CRE Loaded template</a>
+<a href="/after_sale_support/Demo_movies_database/CRE_Loaded/article3.html">How to update images</a>
+<a href="/after_sale_support/Demo_movies_database/CRE_Loaded/article4.html">How to install a new language</a>
+<a href="/after_sale_support/Demo_movies_database/CRE_Loaded/article5.html">How to turn infoboxes on/off</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat143" onclick="ShowHideCategory(143)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/PHP_Nuke/">PHP-Nuke</a>
+</div>
+<div id="cat143" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/PHP_Nuke/article2.html">Installing a PHP-Nuke Theme</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat145" onclick="ShowHideCategory(145)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/wordpress/">WordPress</a>
+</div>
+<div id="cat145" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/wordpress/article2.html">How to add more pages</a>
+<a href="/after_sale_support/Demo_movies_database/wordpress/article3.html">How to change font name and size</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat147" onclick="ShowHideCategory(147)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/Photoshop/">Photoshop</a>
+</div>
+<div id="cat147" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/Photoshop/article7.html">How to use Bring To Front feature</a>
+<a href="/after_sale_support/Demo_movies_database/Photoshop/article2.html">How to change images</a>
+<a href="/after_sale_support/Demo_movies_database/Photoshop/article3.html">How to modify colors of Shape layers</a>
+<a href="/after_sale_support/Demo_movies_database/Photoshop/article4.html">How to modify main colors in PSD</a>
+<a href="/after_sale_support/Demo_movies_database/Photoshop/article5.html">How to save for web</a>
+<a href="/after_sale_support/Demo_movies_database/Photoshop/article6.html">How to create rounded corner effect</a>
+</div>
+   <div class="tmhelp_th_folder">
+       <img id="imgCat149" onclick="ShowHideCategory(149)" src="/images/folder_plus.gif" alt=""/>
+<a href="/after_sale_support/Demo_movies_database/Unzipping/">Unzipping</a>
+</div>
+<div id="cat149" class="tmhelp_th_category">
+<a href="/after_sale_support/Demo_movies_database/Unzipping/article2.html">Unzipping your template</a>
+</div>
+</div>
+</div>
+<script language="javascript" type="text/javascript">goToCategory("");</script>
+</div>
+
+
+					</td>
+<!-- /LEFT COLUMN -->
+
+					<td class="border_left_content">&nbsp;</td>
+<!-- CONTENT -->
+					<td valign="top">
+						<!-- CONTENT -->
+			<div id="tmhelp_th_content">
+
+    <div id="tmhelp_th_navigation_content">
+        <div>
+            <a href="/" class="tmhelp_th_homeLink">Home</a><span class="tmhelp_th_curentLink">Template-Help.com</span>
+
+        </div>
+    </div>
+
+    
+        <div class="tmhelp_th_addBookmark"><a href="javascript:AddBookmark" onclick="javascript:AddBookmark(document.title, window.location); return false;"><img src="/images/bookmarks.gif"></a></div>
+        <div class="tmhelp_th_printerArticle"><a href="/print/index.html" target="_blank"><img src="/images/printer.gif"></a></div>
+
+				<h1>Template-Help.com</h1><hr/>
+				<div class="tmhelp_th_article"><p>Template-Help.com Center is created with the express purpose and serves you by means to offer an
+essential advice in making the important decisions regarding the design and the further development
+of your website. Herein, we are happy to present you answers to almost all of the significantly
+relevant questions, including the simple but important ones, please, see as follows: â??How should I
+choose a template design?â??, â??How can I target a page in a frame?â?? and so on and so forth.</p>
+<p>In addition, we have a whole lot of tutorials on a large amount of subjects related to the
+website development that are of great support to you. Our On-line Tutorial Library is a Project
+that is growing every single day in order to help you change for the better. In case you have any
+questions concerning a different focus that would be of interest or/and of purpose to you, please 
+<a class="link3" href="http://info.template-help.com/contact_us.html">let us know</a>.</p>
+<p style="padding-top: 40px;">
+<span style="font-weight: bold;">NOTE:</span> If you found 
+<span style="font-weight: bold; color: rgb(225, 25, 17);">TEMPLATE-HELP.COM</span> on your
+cardholder's statement and would like to retrieve your order information please, contact the
+Billing Department 
+<a href="http://esupport.template-help.com/index.php?_m=tickets&amp;_a=submit" target="_blank"
+class="link3">here</a>.</p></div>
+
+    <div class="tmhelp_th_previousTopic">
+
+    
+
+    </div>
+    <div class="tmhelp_th_nextTopic">
+
+
+
+    </div>
+
+    <div class="tmhelp_th_clearSpacer"><img src="/images/spacer.gif" alt=""/></div>
+
+</div>
+
+
+<!-- /CONTENT -->
+
+					</td>
+<!-- /CONTENT -->
+				</tr>
+
+			</table>
+		</td>
+	</tr>
+
+<!-- FOOTER -->
+	<tr>
+		<td style="height:50px;" valign="top">
+
+	<div id="footer">
+
+	<div style="height:50px;">
+
+		<span style="float:left;">
+
+		Copyright 2003-2008&nbsp;<span style="font-weight: bold;">Jetimpex, Inc</span>
+
+
+
+		<br/>
+
+		All rights reserved.
+
+		</span>
+
+		<span style="float:right; text-align:right;">
+
+		Didn't find what you were looking for or having suggestions?<br/>
+
+		We want to know. Please <a class="link3" href="/contact_us.html">contact us</a> to help us serve you better.
+
+		</span>
+
+		</div>
+
+	</div>
+</td>
+</td>
+	</tr>
+
+</table>
+<!-- /FOOTER -->
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-2787305-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+</body>
+</html>
+
